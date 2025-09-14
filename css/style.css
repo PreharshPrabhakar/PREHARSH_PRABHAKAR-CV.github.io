@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .container{
-    max-width: 1140px;
+    max-width: 1250px;
     margin:0 auto;
 }
 
@@ -216,7 +216,7 @@ main{
 section.about .content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 16rem;
+    grid-gap: 12rem;
 }
 
 section.about .content h2{
@@ -229,7 +229,7 @@ section.about .content h2{
 
 section.about .content p{
     color: var(--ternary);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.1px;
     margin-bottom: 1rem;
@@ -581,7 +581,7 @@ footer{
 
 @media (max-width: 1280px){
     .container{
-        max-width: 90%;
+        max-width: 97%;
     }
 }
 
@@ -672,4 +672,5 @@ nav .inner button a{
 section.about .content .left button a{
     color: var(--info);
     text-decoration: none;
+
 }
