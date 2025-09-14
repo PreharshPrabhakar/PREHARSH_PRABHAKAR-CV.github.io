@@ -376,7 +376,7 @@ section.skills .skills__wrapper .skill-box .progress__wrap .progress__bar .toolt
 section.counter__section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-item: center;
+    justify-items: center;
     background: var(--dark-gray);
 }
 
@@ -675,5 +675,6 @@ section.about .content .left button a{
     text-decoration: none;
 
 }
+
 
 
