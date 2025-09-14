@@ -437,8 +437,8 @@ section.work .wrapper .portfolio .portfolio__wrapper{
 
 section.work .wrapper .portfolio .portfolio__wrapper a img{
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 70%;
     object-fit: cover;
 }
 
@@ -675,6 +675,7 @@ section.about .content .left button a{
     text-decoration: none;
 
 }
+
 
 
 
