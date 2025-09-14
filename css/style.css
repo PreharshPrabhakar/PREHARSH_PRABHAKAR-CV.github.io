@@ -89,7 +89,7 @@ section.profile{
 }
 
 section.profile .left{
-    flex: 2;
+    flex: 3;
     display: flex;
     align-items: center;
 }
@@ -216,7 +216,7 @@ main{
 section.about .content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 12rem;
+    grid-gap: 15rem;
 }
 
 section.about .content h2{
@@ -376,6 +376,7 @@ section.skills .skills__wrapper .skill-box .progress__wrap .progress__bar .toolt
 section.counter__section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    justify-item: center;
     background: var(--dark-gray);
 }
 
@@ -674,3 +675,4 @@ section.about .content .left button a{
     text-decoration: none;
 
 }
+
